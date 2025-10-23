@@ -73,6 +73,7 @@ end
     local function blantant()
         while blantantEnabled do
             icancel()
+            task.wait(0)
             cancel()
             task.wait(delay)
         end
