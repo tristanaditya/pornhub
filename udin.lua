@@ -163,7 +163,7 @@ local Autosell = FarmTab:Toggle({
     Step = 1,
     Value = {
         Min = 1,
-        Max = 30,
+        Max = 120,
         Default = 1,
     },
     Callback = function(Value)
