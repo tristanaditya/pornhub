@@ -79,8 +79,6 @@ if game.PlaceId == 121864768012064 then
     local function blantant()
         while blantantEnabled do
             icancel()
-            task.wait(0)
-            cancel()
             task.wait(delay)
         end
     end
