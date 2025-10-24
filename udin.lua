@@ -42,6 +42,12 @@ if game.PlaceId == 121864768012064 then
         task.wait(0)
         game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_net@0.2.0"):WaitForChild("net"):WaitForChild("RE/FishingCompleted"):FireServer()
         task.wait(0)
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_net@0.2.0"):WaitForChild("net"):WaitForChild("RE/FishingCompleted"):FireServer()
+        task.wait(0)
+    end
+    local function catch()
+        game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_net@0.2.0"):WaitForChild("net"):WaitForChild("RE/FishingCompleted"):FireServer()
+        task.wait(0)
     end
     local function icancel()
         game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_net@0.2.0"):WaitForChild("net"):WaitForChild("RF/ChargeFishingRod"):InvokeServer(1760263259.772593)
@@ -68,10 +74,6 @@ if game.PlaceId == 121864768012064 then
         for i = 1, 8 do
             instant()
             task.wait(0)
-            instant()
-            task.wait(0)
-            instant()
-            tas.wait(0)
         end
         end
     end
