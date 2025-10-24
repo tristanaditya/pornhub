@@ -68,6 +68,10 @@ if game.PlaceId == 121864768012064 then
         for i = 1, 8 do
             instant()
             task.wait(0)
+            instant()
+            task.wait(0)
+            instant()
+            tas.wait(0)
         end
         end
     end
