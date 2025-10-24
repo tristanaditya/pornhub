@@ -136,7 +136,7 @@ if game.PlaceId == 121864768012064 then
     Step = 0.01,
     Value = {
         Min = 0,
-        Max = 3,
+        Max = 5,
         Default = 1,
     },
     Callback = function(Value)
