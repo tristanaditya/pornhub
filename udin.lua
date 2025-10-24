@@ -133,7 +133,7 @@ if game.PlaceId == 121864768012064 then
     local blantantdelay = FarmTab:Slider({
     Title = "Blantant Delay",
     Desc = "Blantant Delay",
-    Step = 0.01,
+    Step = 0.1,
     Value = {
         Min = 0,
         Max = 10,
