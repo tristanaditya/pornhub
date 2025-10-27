@@ -686,14 +686,25 @@ local Section = TeleportTab:Section({
 })
 
 local IslandLocations = {
-    ["Ancient Junggle"] = Vector3.new(1252,7,-153),
+    ["Fisherman Island"] = Vector3.new(-175, 3, 2772),
+    ["Ancient Jungle"] = Vector3.new(1518, 1, -186),
+    ["Sacred Temple"] = Vector3.new(1498, -23, -644),
     ["Coral Refs"] = Vector3.new(-2855, 47, 1996),
+    ["Crater Island"] = Vector3.new(997, 1, 5012),
     ["Enchant Room"] = Vector3.new(3221, -1303, 1406),
+    ["Enchant Room 2"] = Vector3.new(1480, 126, -585),
     ["Esoteric Island"] = Vector3.new(1990, 5, 1398),
     ["Konoha"] = Vector3.new(-603, 3, 719),
+    ["Kohana Volcano"] = Vector3.new(-545.302429, 17.1266193, 118.870537),
+    ["Lost Isle"] = Vector3.new(-3643, 1, -1061),
+    ["Sysyphus Statue"] = Vector3.new(-3783.26807, -135.073914, -949.946289),
     ["Treasure Room"] = Vector3.new(-3600, -267, -1575),
     ["Tropical Grove"] = Vector3.new(-2091, 6, 3703),
     ["Weather Machine"] = Vector3.new(-1508, 6, 1895),
+    ["Halloween"] = Vector3.new(2106, 81, 3295),
+    ["Admin Event"] = Vector3.new(-1981, -442, 7428),
+    ["Crystal Cavern"] = Vector3.new(-1841, -456, 7186),
+    ["Underground Cellar"] = Vector3.new(2135, -93, -701),
 }
 
 local SelectedIsland = nil
