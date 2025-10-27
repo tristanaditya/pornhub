@@ -171,9 +171,13 @@ end
 ------------------- Fishing Logic ------------------
 local function instant()
     while _G.AutoFarm do
-        charge()
         task.wait(0)
-        lempar()
+        for i = 1, 15 do
+            charge()
+            task.wait(0)
+            lempar()
+            task.wait(0)
+        end
         task.wait(delayfishing)
         catch()
         catch()
