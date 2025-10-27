@@ -43,7 +43,7 @@ Window:Tag({
 })
 
 WindUI:Notify({
-    Title = "STREE HUB Loaded",
+    Title = "PORN HUB Loaded",
     Content = "UI loaded successfully!",
     Duration = 3,
     Icon = "bell",
@@ -118,10 +118,10 @@ _G.AutoReconnect = false
 
 ------------------ Fishing logic -------------------
 local function charge()
-    game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_net@0.2.0"):WaitForChild("net"):WaitForChild("RF/ChargeFishingRod"):InvokeServer(1760263259.772593)
+    game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_net@0.2.0"):WaitForChild("net"):WaitForChild("RF/ChargeFishingRod"):InvokeServer()
 end
 local function lempar()
-    game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_net@0.2.0"):WaitForChild("net"):WaitForChild("RF/RequestFishingMinigameStarted"):InvokeServer(1, 1)
+    game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_net@0.2.0"):WaitForChild("net"):WaitForChild("RF/RequestFishingMinigameStarted"):InvokeServer(-1.233184814453125, 0.9966885368402592, 1761532005.497536)
 end
 local function catch()
     game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_net@0.2.0"):WaitForChild("net"):WaitForChild("RE/FishingCompleted"):FireServer()
@@ -175,6 +175,8 @@ local function instant()
         task.wait(0)
         lempar()
         task.wait(delayfishing)
+        catch()
+        catch()
         catch()
         task.wait(0)
     end
