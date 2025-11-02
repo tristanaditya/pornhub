@@ -172,15 +172,11 @@ end
 local function instant()
     while _G.AutoFarm do
         task.wait(0)
-        for i = 1, 15 do
-            charge()
-            task.wait(0)
-            lempar()
-            task.wait(0)
-        end
+        charge()
+        task.wait(0)
+        lempar()
+        task.wait(0)
         task.wait(delayfishing)
-        catch()
-        catch()
         catch()
         task.wait(0)
     end
